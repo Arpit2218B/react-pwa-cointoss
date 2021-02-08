@@ -1,0 +1,44 @@
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h2 {
+    margin: 20px 0
+}
+
+.choice > span {
+    background-color: whitesmoke;
+    color: #212529;
+    padding: 10px 30px;
+    margin: 10px;
+}
+
+.selected {
+    outline: 2px solid red;
+}
+
+.result {
+    border: 1px solid whitesmoke;
+    margin: 50px auto;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: springgreen;
+    margin: 10px;
+}
+
+/* button:hover {
+    background-color: seagreen;
+} */

@@ -1,0 +1,30 @@
+.table {
+    margin-top: 24px;
+    color: whitesmoke;
+}
+
+button {
+    margin-top: 24px;
+}
+
+.error {
+    width: fit-content;
+    margin: 10px auto;
+    background-color: tomato;
+    color: #212529;
+    padding: 4px 8px;
+    border-radius: 16px 8px 8px 8px;
+    box-shadow: 1px 1px 6px gray;
+    display: flex;
+    align-items: center;
+}
+
+.error > span {
+    /* background-color: whitesmoke; */
+    height: 100%;
+    padding: 4px;
+    font-size: 24px;
+    margin-left: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}

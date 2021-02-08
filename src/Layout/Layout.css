@@ -1,0 +1,25 @@
+.layout {
+    max-width: 760px;
+    background-color: #212529;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.nav-tabs {
+    display: flex;
+    width: 100%;
+}
+
+.nav-tabs > a {
+    flex-basis: 40%;
+    color: #212529;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.nav-tabs .nav-link.active {
+    flex-basis: 60%;
+    background-color: #212529;
+    border: none;
+    color: whitesmoke;
+}
